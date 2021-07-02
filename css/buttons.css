@@ -1,0 +1,91 @@
+.button,
+.buttonSecondary,
+.link {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--darkGrey);
+  transition: var(--transitions);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button img,
+.buttonSecondary img {
+  display: inline-block;
+  max-width: 1.5rem;
+  vertical-align: middle;
+  margin-left: .625rem;
+}
+
+
+/* ===============================  Button  =============================== */
+
+.button {
+  line-height: 1.125rem;
+  padding: 10px 10px 8px 16px;
+  border-radius: 20rem;
+  background: var(--bgColor);
+  border: .05rem solid var(--darkGrey);
+}
+
+.button:hover {
+  background: var(--darkGrey);
+  color: var(--white);
+}
+
+.button:hover img {
+  filter: invert(1);
+}
+
+
+/* ===============================  Button secondary no border  =============================== */
+
+.buttonSecondary {
+  line-height: 1.75rem;
+  background: linear-gradient(to top, var(--darkGrey) 0%, var(--darkGrey) 10%, transparent 10.01%) no-repeat;
+  background-size: 100% 100%;
+  /* background-position-y: calc(200% - 1px); */
+}
+
+.buttonSecondary:hover {
+  animation: underline 1s both;
+}
+
+
+/* ===============================  Link underlined  =============================== */
+
+.link {
+  line-height: 1.75rem;
+  background-size: 100% 100%;
+}
+
+.link:hover {
+  line-height: 1.75rem;
+  background: linear-gradient(to top, var(--darkGrey) 0%, var(--darkGrey) 10%, transparent 10.01%) no-repeat;
+  background-size: 100% 100%;
+  animation: underline 1s both;
+}
+
+
+/* ===============================  Animation  =============================== */
+
+@keyframes underline {
+  from {
+    background-size: 100% 100%;
+    background-position: bottom right;
+  }
+  50% {
+    background-size: 0% 100%;
+    background-position: bottom right;
+  }
+  50.01% {
+    background-position: bottom left;
+  }
+  100% {
+    background-size: 100% 100%;
+    background-position: bottom left;
+  }
+}
+
+

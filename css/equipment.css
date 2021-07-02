@@ -1,0 +1,147 @@
+
+/* ===============================  6. Equipment  =============================== */
+
+.equipment {
+    padding-top: 7.5rem;  
+}
+
+.equipment__banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.equipment .equipment__nav button {
+    border: 0.05rem solid var(--darkGrey);
+    padding: .5rem .875rem;
+    border-radius: 20rem;
+    display: inline-block;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    transition: var(--transitions);
+
+}
+
+
+.equipment .equipment__nav button:hover {
+    background: var(--darkGrey);
+    color: var(--white);
+  }
+.equipment .equipment__nav button:hover img {
+    filter: invert(1);
+}
+
+.equipment .equipment__nav #arrowLeftEquipment {
+    transform: rotate(180deg);
+    margin-right: 1rem;
+}
+
+.equipment .equipment__nav button img {
+    max-width: 1.5rem;
+} 
+
+
+
+
+.equipment__carousel {
+    margin-top: 3.75rem;
+}
+
+/* .carousel__item img {
+    width: -webkit-fill-available;
+}
+
+.carousel__item .carousel__item__details {
+    margin-top: 1.875rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+} */
+
+/* .carousel__item .carousel__item__details span {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: var(--darkGrey);   
+}
+
+.carousel__item .carousel__item__details .carousel__item__description h6 {
+    margin-bottom: 1.25rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel {
+    position: relative;
+    /* overflow: hidden; */
+}
+.carousel__container {
+    transition: all .3s;
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel__container::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.carousel__item {
+    float: left;
+}
+
+
+
+
+.carousel__next,
+.carousel__prev {
+    position: absolute;
+    border: 0.05rem solid var(--darkGrey);
+    padding: .5rem .875rem;
+    border-radius: 20rem;
+    display: inline-block;
+    cursor: pointer;
+    background: #fff url(../img/arrow.png) center center no-repeat;
+    background-size: 1.5rem 1.5rem;
+    transition: var(--transitions);
+
+    top: 10px;
+    margin-top: -20px;
+    right: 0px;
+
+}
+
+
+.carousel__prev {
+    right: 20px;
+   
+    transform: rotate(180deg);
+    margin-right: 1rem;
+}
+
+
+.item img {
+    width: -webkit-fill-available;
+}
+
+/* .item  {
+    padding: 0 10px;
+} */

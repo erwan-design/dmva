@@ -1,0 +1,130 @@
+/* ===============================  Platform - adding  =============================== */
+
+
+.platform .adding {
+    margin-top: 154px;
+}
+
+.platform .adding .adding__formInputs {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr 2fr;
+}
+
+.platform .adding__form__column2 input,
+.platform .adding__form__column2 textarea {
+    display: block;
+    width: -webkit-fill-available;
+}
+
+.platform .adding__form__column3 #pictureJobs {
+    display: block;
+    width: -webkit-fill-available;
+}
+
+.platform .adding .adding__formButton {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* ===============================  Platform - editing  =============================== */
+
+
+.platform .editing {
+    margin-top: 60px;
+}
+
+.editing__project {
+    margin-bottom: 20px;
+    border: .05rem solid var(--darkGrey);
+    padding: 20px;
+}
+
+.editing__project .editing__project__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editing__project .editing__project__headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+
+.editing__project .orga__toggle {
+    display: inline-block;
+
+    padding: .4rem .7rem;
+    border-radius: 20rem;
+    border: 0.05rem solid var(--darkGrey);
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.editing__project .orga__toggle .orgaToggle__bar {
+    width: 1.25rem;
+    height: .1875rem;
+    background-color: var(--darkGrey);
+    margin: .25rem auto;
+    border-radius: 20rem;
+}
+
+.editing__project .orga__toggle .orgaToggle__bar:nth-child(2n) {
+    width: 1.75rem;
+}
+
+.editing__project .editing__project__header .editing__project__title {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.editing__project .editing__project__header .save__project {
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+.editing__project .editing__project__body {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.editing__project .editing__project__body .editing__project__picture img {
+    max-width: 200px;
+    height: 120px;
+    width: -webkit-fill-available;
+}
+
+.editing__project .editing__project__body .editing__project__description {
+    margin-left: 20px;
+    padding-right: 8%;
+}
+
+.editing__project__description .project__description__title {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+
+.editing__project__description .project__description__desc {
+    line-height: 26px;   
+}
+
+.editing__project .editing__project__body .editing__project__details {
+    text-align: right;
+}
+
+.editing__project__details span {
+    display: block;
+    line-height: 26px;
+}

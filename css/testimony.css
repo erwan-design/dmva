@@ -1,0 +1,56 @@
+
+/* ===============================  8. Testimony  =============================== */
+
+.testimony {
+    padding-top: 8.75rem;
+}
+
+.testimony h5 {
+    line-height: 2.125rem;
+    color: var(--darkGrey);
+    max-width: 46.875rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.testimony .testimony__author,
+.testimony .testimony__company {
+    text-align: center;
+}
+
+.testimony .testimony__author {
+    font-weight: 500;
+    color: var(--darkGrey);
+    margin-top: 1.25rem;
+}
+
+.testimony .testimony__nav {
+    margin-top: 1.25rem;
+    text-align: center;
+}
+
+.testimony .testimony__nav button {
+    padding: .5rem .875rem;
+    display: inline-block;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+
+    transition: var(--transitions);
+
+}
+
+
+.testimony .testimony__nav button img {
+    max-width: 1.5rem;
+}
+
+.testimony .testimony__nav #arrowLeftTestimony {
+    transform: rotate(180deg);
+}
+
+
+
+
+

@@ -1,0 +1,70 @@
+
+/* ===============================  7. Partners  =============================== */
+
+.partners {
+    margin-top: 8.75rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.partners  .partners__title {
+    -ms-flex: 0 0 36%;
+    flex: 0 0 36%;
+    max-width: 36%;
+}
+
+.partners .parnters__list {
+    -ms-flex: 0 0 56%;
+    flex: 0 0 56%;
+    max-width: 56%;
+    
+    display: grid;  
+    grid-gap: 1.25rem;  
+    grid-template-columns: repeat(auto-fit, minmax(8.75rem, 1fr));
+    grid-auto-rows: minmax(6.25rem, auto); 
+}
+
+.partners .parnters__list__item img {
+    width: 100%;  
+    height: 100%;  
+    object-fit: contain; 
+}
+
+
+
+
+
+
+/* ===============================  Responsive - Tablet  =============================== */
+@media (max-width: 768px) { 
+
+    .partners .parnters__list {
+        grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    }
+}
+
+
+/* ===============================  Responsive - Mobile  =============================== */
+@media (max-width: 480px) { 
+
+    .partners {
+        display: block;
+    }
+
+    .partners  .partners__title {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .partners .parnters__list {
+        margin-top: 2.5rem;
+
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,72 @@
+
+/* ===============================  9. Direction  =============================== */
+
+.direction {
+    margin-top: 6.875rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direction .direction__infos {
+    display: grid;   
+    grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+}
+
+.direction .direction__infos,
+.direction .direction__map {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.direction .direction__infos .direction__mail,
+.direction .direction__infos .direction__tel {
+    margin-top: 6.25rem;
+}
+
+.direction .direction__infos p {
+    color: var(--darkGrey);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.direction .direction__infos span {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: var(--grey);
+}
+
+
+
+/* ===============================  Responsive - Tablet  =============================== */
+
+@media (max-width: 768px) { 
+
+    .direction {
+        display: block;
+    }
+
+    .direction .direction__infos,
+    .direction .direction__map {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .direction .direction__infos__column {
+        justify-self: center;
+    }
+    
+    .direction .direction__map {
+        margin-top: 2.5rem;
+    }
+
+    .direction .direction__infos .direction__mail,
+    .direction .direction__infos .direction__tel {
+        margin-top: 2.5rem;
+    }
+
+}

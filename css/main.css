@@ -1,0 +1,213 @@
+
+
+/* Import VARIABLES from variables.css */
+@import url("variables.css");
+
+
+/* Import BUTTON from buttons.css */
+@import url("buttons.css");
+
+
+/* Import NAVIGATION from navigation.css */
+@import url("navigation.css");
+
+
+/* Import BANNER from banner.css */
+@import url("banner.css");
+
+
+/* Import COMPANY from company.css */
+@import url("company.css");
+
+
+/* Import JOBS from jobs.css */
+@import url("jobs.css");
+
+
+/* Import PROJECTS from projects.css */
+@import url("projects.css");
+
+
+/* Import EQUIPMENT from equipment.css */
+@import url("equipment.css");
+
+
+/* Import FAQ from faq.css */
+@import url("faq.css");
+
+
+/* Import PARNTERS from partners.css */
+@import url("partners.css");
+
+
+/* Import TESTIMONY from testimony.css */
+@import url("testimony.css");
+
+
+/* Import DIRECTION from direction.css */
+@import url("direction.css");
+
+
+/* Import CONTACT from contact.css */
+@import url("contact.css");
+
+
+/* Import FOOTER from footer.css */
+@import url("footer.css");
+
+
+/* Import SIGNIN from signin.css */
+@import url("admin/signin.css");
+
+
+/* Import PLATFORM from platform.css */
+@import url("admin/platform.css");
+
+
+/* ===============================  Global  =============================== */
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  /* basefont */font-size: 1rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: var(--bgColor);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: var(--grey);
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  color: var(--darkGrey);
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+}
+
+h2 {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: var(--grey);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.625rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+  line-height: 2.375rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+h6 {
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.125rem;
+  color: var(--darkGrey);
+  transition: var(--transitions);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+img {
+  height: auto; 
+  object-fit: cover;
+  display: block;
+}
+
+.margin__constraint {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.useful__width1 {
+  max-width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.useful__width2 {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+/* 
+html {
+   basefont font-size: 1rem;
+}
+
+ Se rapproche de 24px 
+
+@media (min-width: 30em) {
+  html {
+    font-size: calc(0.9375rem + 0.20833333333333334vw);
+  }
+}
+
+
+Grossi au dela de 25px jusqu'a 1440px
+@media (min-width: 90em) {
+  html {
+    font-size: 1.125rem;
+  }
+} */
+
+
+
+/*   
+  .banner__title__desc {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 3rem;
+    margin-right: 5rem;
+  } */

@@ -1,0 +1,192 @@
+
+/* ===============================  5. Projects  =============================== */
+
+.projects {
+    padding-top: 8.75rem;
+}
+
+.projects h2,
+.projects h3 {
+    text-align: center;
+}
+
+.projects .projects__filter {
+    margin-top: 2.5rem;
+}
+
+.projects .projects__filter select {
+    margin: 0 auto;
+    padding-left: 1rem;
+    height: 2.6rem; 
+
+    display: block;
+    width: 170px;
+    border: 0.05rem solid var(--grey);
+    background: transparent;
+    outline: none;
+    border-radius: 20rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--darkGrey);
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../img/angle-down.png) no-repeat;
+    background-position: calc(100% - 10px);
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+}
+
+.projects .projects__filter select:hover {
+    cursor: pointer;
+}
+
+
+/* ===============================  Gallery projects  =============================== */
+
+.projects__gallery {
+    margin-top: 3.75rem;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 70px;
+
+    grid-template-areas: 
+    "project1 project2"
+    "project3 project3"
+    "project4 project5"
+    "project6 project6";
+    grid-template-rows: auto;
+}
+
+
+
+.projects__gallery img {
+    width: -webkit-fill-available;
+    max-width: 100%;
+}
+
+.gallery__item:nth-child(0n+1) img,
+.gallery__item:nth-child(3) img,
+.gallery__item:nth-child(5) img {
+    height: 420px;
+}
+
+.gallery__item:nth-child(2) img,
+.gallery__item:nth-child(4) img {
+    height: 270px;
+}
+
+.gallery__item:nth-child(0n+1) {
+    grid-area: project1;
+}
+
+.gallery__item:nth-child(2) {
+    grid-area: project2;
+}
+
+.gallery__item:nth-child(3) {
+    grid-area: project3;
+}
+
+.gallery__item:nth-child(4) {
+    grid-area: project4;
+}
+
+.gallery__item:nth-child(5) {
+    grid-area: project5;
+}
+
+
+
+
+.gallery__item .gallery__item__details {
+    margin-top: 1.875rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.gallery__item__infos span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: var(--darkGrey);   
+}
+
+.gallery__item__infos .gallery__item__separator {
+    display: none;
+}
+
+.gallery__item__description {
+    -ms-flex: 0 0 64%;
+    flex: 0 0 64%;
+    max-width: 64%;
+}
+
+.gallery__item__description h5 {
+    margin-bottom: 1.25rem;
+}
+
+.projects .gallery__loadMore {
+    margin-top: 2.5rem;
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* ===============================  Responsive - Desktop  =============================== */
+
+@media (max-width: 1024px) { 
+
+}
+
+
+/* ===============================  Responsive - Tablet  =============================== */
+
+@media (max-width: 768px) { 
+    .projects__gallery {
+        display: block;
+    }
+
+    .gallery__item:not(:last-child) {
+        margin-bottom: 3.75rem;
+    }
+
+}
+
+
+/* ===============================  Responsive - Mobile  =============================== */
+
+@media (max-width: 480px) { 
+
+    .gallery__item .gallery__item__details {
+        display: block; 
+    }
+    
+    .gallery__item__description {
+        max-width: initial;
+    }
+
+    .gallery__item__infos {
+        margin-top: 1rem;
+    }
+
+    .gallery__item .gallery__item__details .gallery__item__infos span {
+        display: inline-block;   
+    }
+
+    .gallery__item__separator {
+        display: inline-block;
+    }
+
+}
+

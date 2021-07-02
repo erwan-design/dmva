@@ -1,0 +1,80 @@
+
+/* ===============================  3. Company  =============================== */
+
+.company {
+    padding-top: 6.25rem;
+    
+    display: grid;
+    grid-template-columns: 1fr 30%;
+}
+
+.company__description p,
+.company__description .button,
+.company__numbers .company__item:not(:first-child)  {
+    margin-top: 2.5rem;
+}
+
+.company__numbers {
+    justify-self: end;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.company__numbers span {
+    margin-bottom: .625rem;
+
+    font-size: 2.625rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--darkGrey);
+}
+
+.company__numbers p {
+    color: var(--darkGrey);
+    line-height: 1.125rem;
+}
+
+
+
+/* ===============================  Responsive - Tablet  =============================== */
+
+@media (max-width: 768px) { 
+
+    .company {
+        grid-template-columns: 1fr;
+    }
+
+    .company__numbers {
+        margin-bottom: 5rem;
+
+        justify-self: initial;
+        order: -1;
+
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .company__numbers .company__item {
+        min-width: 150px;
+    }
+
+    .company__numbers .company__item:not(:first-child) {
+        margin-top: initial;
+    }
+}
+
+
+/* ===============================  Responsive - Mobile  =============================== */
+
+@media (max-width: 480px) { 
+
+    .company__numbers .company__item:nth-child(0n+3),
+    .company__numbers .company__item:nth-child(0n+4) {
+        margin-top: 1.25rem;
+    }
+
+}

@@ -1,0 +1,66 @@
+/* ===============================  Signin  =============================== */
+
+
+.signin .nav__menu {
+    justify-content: flex-end;
+}
+
+.signin .signin__form {
+    margin-top: 13.75rem;
+}
+
+.signin .signin__form form {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.signin .signin__form span {
+    margin-bottom: 20px;
+    display: block;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: var(--darkGrey);
+}
+
+.signin .signin__form input {
+    padding-left: 1rem;
+    height: 2.6rem; 
+    display: block;
+    width: -webkit-fill-available;
+
+    border: 0.05rem solid var(--grey);
+    background: transparent;
+    outline: none;
+    border-radius: 0;
+    font-size: 1rem;
+    color: var(--darkGrey);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.signin .signin__form input#name {
+    margin-bottom: 40px;
+}
+
+.signin .signin__form input::placeholder {
+    color: var(--grey);
+}
+
+.signin .signin__form button {
+    margin-top: 60px;
+}
+
+
+
+/* ===============================  Responsive - Mobile  =============================== */
+
+@media (max-width: 480px) { 
+    .signin .signin__form form {
+        max-width: 100%;
+        
+    }
+    
+}
