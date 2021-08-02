@@ -25,6 +25,9 @@
 <!-- ===============================  Custom css  =============================== -->
   <link rel="stylesheet" href="css/main.css">
 
+<!-- ===============================  Slick css  =============================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
 <!-- ===============================  Social meta  =============================== -->
   <meta property="og:title" content="Dmva TP • Entreprise de travaux publics opérant dans l'Oise" />
   <meta property="og:url" content="https://dmva-tp.fr" />
@@ -35,16 +38,12 @@
 </head>
 
 
-
-
 <body>
-
 <header id="header" class="header">
-
 <!-- ===============================  1. Navigation  =============================== -->
   <nav class="nav">
 
-    <a href="signin-tibo.html" class="nav__logo" title="Accueil">
+    <a href="https://dmva-tp.fr/" class="nav__logo" title="Accueil">
       <img src="img/logo.png" alt="Logo DMVA Travaux Publics">
     </a>
     <div id="navMenu" class="nav__menu">
@@ -67,9 +66,7 @@
 </header>
 
 
-
 <main class="margin__constraint">
-
 <!-- ===============================  2. Banner  =============================== -->
   <section id="accueil" class="banner useful__width1">
     <h1 class="banner__title">Entreprise de travaux publics opérant dans l’Oise</h1>
@@ -110,12 +107,9 @@
       </div>
 
     </div>
-  </section>
-
-  
+  </section> 
 
 <!-- ===============================  3. Company  =============================== -->
-
   <section id="entreprise" class="company useful__width1">
     <div class="company__description">
       <h2>Découvrir l’entreprise</h2>
@@ -157,10 +151,7 @@
     </div>
   </section>
 
-
-
 <!-- ===============================  4. Jobs  =============================== -->
-
   <section id="metiers" class="jobs useful__width1">
     <h2>Nos différents métiers</h2>
     <h3>Un savoir-faire générationnel</h3>
@@ -238,14 +229,6 @@
     </div>
       
   </section>
-
-
-
-
-
-
-
-
 
 <!-- ===============================  5. Projects  =============================== -->
   <section id="projets" class="projects useful__width1">
@@ -384,13 +367,10 @@
 
   </section>
 
-
-
-
 <!-- ===============================  6. Equipment  =============================== -->
-  <section id="equipment" class="equipment useful__width1">
-    
-    <div class="equipment__banner">
+  <section id="equipment" class="equipment">
+      
+    <div class="equipment__banner useful__width1">
       <div class="equipment__title">
         <h2>Notre parc matériel</h2>
         <h3>Des moyens d’interventions 
@@ -406,12 +386,12 @@
         </button>
       </div> 
     </div>
-
-    <div id="equipment1" class="equipment__carousel">
+  
+    <div id="equipment1" class="equipment__carousel useful__width2">
 
       <!-- ===============================  #1  =============================== -->
-      <div class="item">
-        <img src="img/banner.jpg" width=400 alt="">
+      <div class="equipment__carouselItem carouselItem1">
+        <img src="img/banner.jpg" alt="">
         <div class="carousel__item__details">
           <div class="carousel__item__description">
             <h6>Case 988</h6>
@@ -422,8 +402,8 @@
       </div>
 
       <!-- ===============================  #2  =============================== -->
-      <div class="item">
-        <img src="img/banner2.jpg" width=400 alt="">
+      <div class="equipment__carouselItem carouselItem2">
+        <img src="img/banner2.jpg" alt="">
         <div class="carousel__item__details">
           <div class="carousel__item__description">
             <h6>Case 988</h6>
@@ -434,8 +414,8 @@
       </div>
 
       <!-- ===============================  #3  =============================== -->
-      <div class="item">
-        <img src="img/banner2.jpg" width=400 alt="">
+      <div class="equipment__carouselItem carouselItem3">
+        <img src="img/banner2.jpg" alt="">
         <div class="carousel__item__details">
           <div class="carousel__item__description">
             <h6>Case 988</h6>
@@ -446,8 +426,8 @@
       </div>
 
       <!-- ===============================  #4  =============================== -->
-      <div class="item">
-        <img src="img/banner.jpg" width=400 alt="">
+      <div class="equipment__carouselItem carouselItem4">
+        <img src="img/banner.jpg" alt="">
         <div class="carousel__item__details">
           <div class="carousel__item__description">
             <h6>Case 988</h6>
@@ -458,8 +438,8 @@
       </div>
 
       <!-- ===============================  #5  =============================== -->
-      <div class="item">
-        <img src="img/banner2.jpg" width=400 alt="">
+      <div class="equipment__carouselItem carouselItem5">
+        <img src="img/banner2.jpg" alt="">
         <div class="carousel__item__details">
           <div class="carousel__item__description">
             <h6>Case 988</h6>
@@ -468,18 +448,12 @@
           <span class="carousel__item__date">Année 2018</span>
         </div>
       </div>
-   
+  
 
     </div>
   </section>
 
-
-
-
-
-
 <!-- ===============================  7. Faq  =============================== -->
-
   <section id="faq" class="faq useful__width1">
     <h2>Faq</h2>
 
@@ -555,9 +529,6 @@
 
   </section>
 
-
-
-
   <!-- ===============================  7. Partners  =============================== -->
   <section id="partners" class="partners useful__width1">
     <div class="partners__title">
@@ -593,29 +564,38 @@
     </div>
   </section>
 
-
-
-
   <!-- ===============================  8. Testimony  =============================== -->
   <section id="testimony" class="testimony useful__width1">
 
-    <!-- ===============================  #1  =============================== -->
-    <h5 class="testimony__content">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet orci, diam a cras. At et magna tristique tortor maecenas aliquet proin aenean nam.”</h5>
-    <p class="testimony__author">Adam Regelmann</p>
-    <p class="testimony__company">Co-createur, Quartzy</p>
+    <div class="testimony__carousel">
 
-    <div class="testimony__nav">
+      <!-- ===============================  #1  =============================== -->
+      <div class="testimony__carouselItem">
+        <h5 class="testimony__content">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet orci, diam a cras. At et magna tristique tortor maecenas aliquet proin aenean nam.”</h5>
+        <p class="testimony__author">Adam Regelmann</p>
+        <p class="testimony__company">Co-createur, Quartzy</p>
+      </div>
+
+      <!-- ===============================  #2  =============================== -->
+      <div class="testimony__carouselItem">
+        <h5 class="testimony__content">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet orci, diam a cras. At et magna tristique tortor maecenas aliquet proin aenean nam.”</h5>
+        <p class="testimony__author">Adam Regelmann</p>
+        <p class="testimony__company">Co-createur, Quartzy</p>
+      </div>
+      
+    </div>
+    
+    <!-- ARROW NAV
+      <div class="testimony__nav">
       <button id="arrowLeftTestimony">
         <img src="img/arrow.png" alt="Flèche navigation">
       </button>
       <button id="arrowRightTestimony">
         <img src="img/arrow.png" alt="Flèche navigation">
       </button>
-    </div>
+    </div> -->
 
   </section>
-
-
 
   <!-- ===============================  9. Direction  =============================== -->
   <section id="direction" class="direction useful__width1">
@@ -651,10 +631,7 @@
     </div>
   </section>
 
-
-
   <!-- ===============================  10. Contact  =============================== -->
-  
   <section id="contact" class="contact useful__width1">
     <h2>Contact</h2>
     <h3>Concrétisons votre projet</h3>
@@ -705,9 +682,6 @@
 
 </main>
 
-
-
-
 <!-- ===============================  11. Footer  =============================== -->
 <footer class="margin__constraint">
   
@@ -746,6 +720,10 @@
 
 
 
+<!-- ===============================  JS Slick  =============================== -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="js/carousel.js"></script>
 
 <!-- ===============================  JS Scroll reveal  =============================== -->
   <script src="https://unpkg.com/scrollreveal"></script>
@@ -762,17 +740,11 @@
 <!-- ===============================  JS accordeon  =============================== -->
   <script src="js/accordeon.js"></script>
 
-
-
-<!-- ===============================  JS carousel  =============================== -->
-  <script src="js/carousel.js"></script>
-
-
   </body>
 </html>
 
 
 
-<!-- <div class="wall-item mobiledesign" id="">
-  <img id="last-img" srcset="img/lg/less-lg.png 1600w, img/sm/less-sm.png 800w" src="img/sm/less-sm.png" alt="less, sans déchet"> 
-</div> -->
+<!-- 
+  <img id="last-img" srcset="img/lg/less-lg.png 1600w, img/sm/less-sm.png 800w" src="img/sm/less-sm.png" alt="###"> 
+ -->

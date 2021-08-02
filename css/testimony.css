@@ -24,10 +24,31 @@
     margin-top: 1.25rem;
 }
 
-.testimony .testimony__nav {
-    margin-top: 1.25rem;
-    text-align: center;
+
+
+
+
+.testimony__carousel .slick-prev,
+.testimony__carousel .slick-next {
+    position: absolute;
+    z-index: 10;
+    bottom: -30%;
 }
+.testimony__carousel .slick-prev {
+    left: 46%;
+    transform: translateX(-46%);
+}
+.testimony__carousel .slick-next {
+    left: 54%;
+    transform: translateX(-54%);
+}
+
+
+
+
+
+
+/*  ARROW NAV
 
 .testimony .testimony__nav button {
     padding: .5rem .875rem;
@@ -38,9 +59,7 @@
     border: none;
 
     transition: var(--transitions);
-
 }
-
 
 .testimony .testimony__nav button img {
     max-width: 1.5rem;
@@ -48,7 +67,7 @@
 
 .testimony .testimony__nav #arrowLeftTestimony {
     transform: rotate(180deg);
-}
+} */
 
 
 

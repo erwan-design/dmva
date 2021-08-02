@@ -20,7 +20,6 @@
 
 
 /* ===============================  Button  =============================== */
-
 .button {
   line-height: 1.125rem;
   padding: 10px 10px 8px 16px;
@@ -40,7 +39,6 @@
 
 
 /* ===============================  Button secondary no border  =============================== */
-
 .buttonSecondary {
   line-height: 1.75rem;
   background: linear-gradient(to top, var(--darkGrey) 0%, var(--darkGrey) 10%, transparent 10.01%) no-repeat;
@@ -54,7 +52,6 @@
 
 
 /* ===============================  Link underlined  =============================== */
-
 .link {
   line-height: 1.75rem;
   background-size: 100% 100%;
@@ -69,7 +66,6 @@
 
 
 /* ===============================  Animation  =============================== */
-
 @keyframes underline {
   from {
     background-size: 100% 100%;
