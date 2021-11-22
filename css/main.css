@@ -64,6 +64,10 @@
 @import url("admin/platform.css");
 
 
+/* Import MENTIONS from mentions.css */
+@import url("admin/mentions.css");
+
+
 /* ===============================  Global  =============================== */
 
 *, *::before, *::after {

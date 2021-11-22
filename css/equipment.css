@@ -12,6 +12,9 @@
     flex-wrap: wrap;
 }
 
+
+/* ===============================  Carousel navigation  =============================== */
+
 .equipment .equipment__nav button {
     border: 0.05rem solid var(--darkGrey);
     padding: .5rem .875rem;
@@ -39,11 +42,6 @@
 
 
 
-
-.equipment__carousel {
-    margin-top: 3.75rem;
-}
-
 .equipment__carousel .slick-prev,
 .equipment__carousel .slick-next {
     position: absolute;
@@ -60,27 +58,50 @@
 }
 
 
+/* ===============================  Carousel equipments  =============================== */
 
-
-.equipment__carousel .equipment__carouselItem:nth-child(2n+1) {
-    width: 540px;
-}
-.equipment__carousel .equipment__carouselItem:nth-child(2n+0) {
-    width: 350px;
+.equipment__carousel {
+    margin-top: 3.75rem;
 }
 
 .equipment__carousel .equipment__carouselItem {
-    margin: 0 20px;
+    margin: 0 1.25rem;
 }
 
 .equipment__carouselItem img {
     width: -webkit-fill-available;
-    height: 370px;
+    height: 23.125rem;
+}
+
+.carousel__item__details h6 {
+    margin-top: 1.875rem;
+    margin-bottom: .75rem;
 }
 
 
 
-/* :not(:last-child) 
 
-https://www.youtube.com/watch?v=4SQXOA8Z-lo
-*/
+
+
+
+/* ===============================  Responsive - Desktop  =============================== */
+
+@media (max-width: 1024px) { 
+
+}
+
+
+/* ===============================  Responsive - Tablet  =============================== */
+
+@media (max-width: 768px) { 
+
+}
+
+
+/* ===============================  Responsive - Mobile  =============================== */
+
+@media (max-width: 480px) { 
+    .equipment__carousel .equipment__carouselItem {
+        margin: 0 .625rem;
+    }
+}

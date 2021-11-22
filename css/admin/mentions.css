@@ -1,0 +1,25 @@
+/* ===============================  Mentions légales  =============================== */
+
+.mentions .nav__menu {
+    justify-content: flex-end;
+}
+
+.mentions .rules {
+    margin-top: 13.75rem;
+    margin-bottom: 12rem;
+}
+
+.rules h3 {
+    margin-bottom: 5.625rem;;
+}
+
+.rules_item {
+    margin-bottom: 3.25rem;
+}
+
+.rules .rules_item h5 {
+    margin-bottom: 1.25rem
+}
+.rules .rules_item p {
+    margin-bottom: 1.125rem;
+}
