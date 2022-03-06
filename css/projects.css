@@ -133,7 +133,6 @@
 
 .projects .gallery__loadMore {
     margin-top: 2rem;
-
     text-align: center;
 }
 
@@ -159,6 +158,10 @@
 
     .gallery__item:not(:last-child) {
         margin-bottom: 3.75rem;
+    }
+
+    .projects .gallery__loadMore {
+        margin-top: 4rem;
     }
 
 }

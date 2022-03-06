@@ -2,7 +2,7 @@
 /* ===============================  6. Equipment  =============================== */
 
 .equipment {
-    padding-top: 7.5rem;  
+    padding-top: 8.75rem;  
 }
 
 .equipment__banner {
@@ -10,51 +10,6 @@
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-}
-
-
-/* ===============================  Carousel navigation  =============================== */
-
-.equipment .equipment__nav button {
-    border: 0.05rem solid var(--darkGrey);
-    padding: .5rem .875rem;
-    border-radius: 20rem;
-    display: inline-block;
-    cursor: pointer;
-    background: none;
-    outline: none;
-    transition: var(--transitions);
-}
-.equipment .equipment__nav button:hover {
-    background: var(--darkGrey);
-    color: var(--white);
-  }
-.equipment .equipment__nav button:hover img {
-    filter: invert(1);
-}
-.equipment .equipment__nav #arrowLeftEquipment {
-    transform: rotate(180deg);
-    margin-right: 1rem;
-}
-.equipment .equipment__nav button img {
-    max-width: 1.5rem;
-} 
-
-
-
-.equipment__carousel .slick-prev,
-.equipment__carousel .slick-next {
-    position: absolute;
-    top: -22%;
-    transform: translateY(22%);
-    z-index: 10;
-}
-
-.equipment__carousel .slick-prev {
-    right: 12%;
-}
-.equipment__carousel .slick-next {
-    right: 7%;
 }
 
 
@@ -79,6 +34,46 @@
 }
 
 
+/* ===============================  Carousel arrows testimony  =============================== */
+
+.equipment__carousel button {
+    border: 0.05rem solid var(--darkGrey);
+    padding: .5rem .875rem;
+    border-radius: 20rem;
+    display: inline-block;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    transition: var(--transitions);
+}
+
+.equipment__carousel button:hover {
+    background: var(--darkGrey);
+    color: var(--white);
+  }
+  .equipment__carousel button:hover img {
+    filter: invert(1);
+}
+.equipment__carousel #arrowLeftEquipment {
+    transform: rotate(180deg)!important;
+    margin-right: 1rem;
+}
+.equipment__carousel button img {
+    max-width: 1.5rem;
+} 
+
+.equipment__carousel #arrowLeftEquipment,
+.equipment__carousel #arrowRightEquipment {
+    position: absolute;
+    top: -20%;
+}
+.equipment__carousel #arrowLeftEquipment  {
+    right: 11.8%;
+}
+.equipment__carousel #arrowRightEquipment {
+    right: 7.4%;
+}
+
 
 
 
@@ -87,13 +82,24 @@
 /* ===============================  Responsive - Desktop  =============================== */
 
 @media (max-width: 1024px) { 
-
+    .equipment__carousel #arrowLeftEquipment  {
+        right: 9%;
+    }
+    .equipment__carousel #arrowRightEquipment {
+        right: 2%;
+    }
+    .equipment__carousel .equipment__carouselItem {
+        margin: 0 .675rem;
+    }
 }
 
 
 /* ===============================  Responsive - Tablet  =============================== */
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+    .equipment__carousel .equipment__carouselItem {
+        margin: 0 .125rem;
+    } 
 
 }
 
@@ -101,7 +107,5 @@
 /* ===============================  Responsive - Mobile  =============================== */
 
 @media (max-width: 480px) { 
-    .equipment__carousel .equipment__carouselItem {
-        margin: 0 .625rem;
-    }
+
 }

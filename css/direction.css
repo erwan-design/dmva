@@ -2,7 +2,7 @@
 /* ===============================  9. Direction  =============================== */
 
 .direction {
-    margin-top: 10.625rem;
+    margin-top: 11.875rem;
     
     display: flex;
     justify-content: space-between;
@@ -46,6 +46,7 @@
 @media (max-width: 768px) { 
 
     .direction {
+        margin-top: 8.75rem;
         display: block;
     }
 
