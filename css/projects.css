@@ -20,7 +20,7 @@
     height: 2.6rem; 
 
     display: block;
-    width: 170px;
+    width: 10.625rem;
     border: 0.05rem solid var(--grey);
     background: transparent;
     outline: none;
@@ -50,7 +50,7 @@
 
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 70px;
+    grid-gap: 4.375rem;
 
     grid-template-areas: 
     "project1 project2"
@@ -59,8 +59,6 @@
     "project6 project6";
     grid-template-rows: auto;
 }
-
-
 
 .projects__gallery img {
     width: -webkit-fill-available;
@@ -98,9 +96,6 @@
     grid-area: project5;
 }
 
-
-
-
 .gallery__item .gallery__item__details {
     margin-top: 1.875rem;
 
@@ -135,11 +130,6 @@
     margin-top: 2rem;
     text-align: center;
 }
-
-
-
-
-
 
 
 /* ===============================  Responsive - Desktop  =============================== */

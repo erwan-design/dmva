@@ -24,7 +24,7 @@ $('.equipment__carousel').slick({
   });
 
 $('.testimony__carousel').slick({
-  autoplay: true,
+  infinite: true,
   prevArrow:'<button id="arrowLeftTestimony"><img src="img/arrow.png" alt="Flèche navigation"></button>',
   nextArrow:'<button id="arrowRightTestimony"><img src="img/arrow.png" alt="Flèche navigation"></button>',
   responsive: [

@@ -34,7 +34,7 @@
 }
 
 
-/* ===============================  Carousel arrows testimony  =============================== */
+/* ===============================  Carousel arrows equipments  =============================== */
 
 .equipment__carousel button {
     border: 0.05rem solid var(--darkGrey);
@@ -50,8 +50,8 @@
 .equipment__carousel button:hover {
     background: var(--darkGrey);
     color: var(--white);
-  }
-  .equipment__carousel button:hover img {
+}
+.equipment__carousel button:hover img {
     filter: invert(1);
 }
 .equipment__carousel #arrowLeftEquipment {
@@ -73,10 +73,6 @@
 .equipment__carousel #arrowRightEquipment {
     right: 7.4%;
 }
-
-
-
-
 
 
 /* ===============================  Responsive - Desktop  =============================== */
