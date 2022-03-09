@@ -16,6 +16,7 @@ $('.equipment__carousel').slick({
         breakpoint: 768,
         settings: {
           arrows: false,
+          autoplay: true,
           slidesToShow: 1,
           slidesToScroll: 1,
         }
@@ -32,6 +33,7 @@ $('.testimony__carousel').slick({
       breakpoint: 768,
       settings: {
         arrows: false,
+        autoplay: true,
       }
     },
   ]
