@@ -46,7 +46,7 @@
 /* ===============================  Gallery projects  =============================== */
 
 .projects__gallery {
-    margin-top: 3.75rem;
+    margin-top: 5rem;
 
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -127,27 +127,34 @@
 }
 
 .projects .gallery__loadMore {
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
 }
 
 
 /* ===============================  Responsive - Desktop  =============================== */
-
 @media (max-width: 1024px) { 
-
 }
-
 
 /* ===============================  Responsive - Tablet  =============================== */
 
 @media (max-width: 768px) { 
+
+    .projects h2,
+    .projects h3 {
+        text-align: left;
+    }
+
+    .projects .projects__filter select {
+        margin: initial;
+    }
+
     .projects__gallery {
         display: block;
     }
 
     .gallery__item:not(:last-child) {
-        margin-bottom: 3.75rem;
+        margin-bottom: 5rem;
     }
 
     .projects .gallery__loadMore {

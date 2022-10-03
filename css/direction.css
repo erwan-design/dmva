@@ -58,7 +58,7 @@
     }
 
     .direction .direction__infos__column {
-        justify-self: center;
+        justify-self: start;
     }
     
     .direction .direction__map {

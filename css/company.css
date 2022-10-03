@@ -9,8 +9,11 @@
 }
 
 .company__description p,
-.company__description .button,
-.company__numbers .company__item:not(:first-child)  {
+.company__description .button {
+    margin-top: 2.5rem;
+}
+
+.company__numbers .company__item:not(:first-child) {
     margin-top: 2.5rem;
 }
 
@@ -19,7 +22,6 @@
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
 }
 
@@ -37,8 +39,6 @@
     line-height: 1.125rem;
 }
 
-
-
 /* ===============================  Responsive - Tablet  =============================== */
 
 @media (max-width: 768px) { 
@@ -48,33 +48,41 @@
     }
 
     .company__numbers {
-        margin-bottom: 5rem;
-
         justify-self: initial;
         order: -1;
-
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
     }
 
-    .company__numbers .company__item {
-        min-width: 150px;
+    .company__description {
+        margin-top: 6.25rem;;
     }
 
-    .company__numbers .company__item:not(:first-child) {
+    .company__numbers .company__item {
+        min-width: 160px;
+    }
+
+    .company__numbers .company__item:not(:first-child)  {
         margin-top: initial;
     }
 }
 
 
-/* ===============================  Responsive - Mobile  =============================== */
+/* ===============================  Responsive - Perso  =============================== */
 
-@media (max-width: 480px) { 
-
-    .company__numbers .company__item:nth-child(0n+3),
-    .company__numbers .company__item:nth-child(0n+4) {
+@media (max-width: 679px) { 
+    .company__numbers .company__item:nth-child(4){
         margin-top: 1.25rem;
-    }
-
+    } 
+}
+@media (max-width: 519px) { 
+    .company__numbers .company__item:nth-child(3){
+        margin-top: 1.25rem;
+    } 
+}
+@media (max-width: 359px) { 
+    .company__numbers .company__item:nth-child(2){
+        margin-top: 1.25rem;
+    } 
 }

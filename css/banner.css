@@ -3,7 +3,6 @@
 
 .banner {
     margin-top: 13.75rem;
-    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(363px, 1fr));
 }
@@ -20,7 +19,6 @@
     border-radius: 20rem;
     display: inline-block;
 }
-
 .banner__arrow:hover {
     background: var(--darkGrey);
     color: var(--white);
@@ -30,7 +28,6 @@
     max-width: 1.5rem;
     transform: rotate(90deg);
 }
-
 .banner__arrow:hover img {
     filter: invert(1);
 }
@@ -93,10 +90,13 @@
 }
 
 
-
 /* ===============================  Responsive - Tablet  =============================== */
 
 @media (max-width: 768px) { 
+
+    .banner {
+        margin-top: 10rem;
+    }
 
     .banner__description {
         margin-top: 1.875rem;

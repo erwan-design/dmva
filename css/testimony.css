@@ -9,10 +9,10 @@
     line-height: 2.125rem;
     color: var(--darkGrey);
     max-width: 46.875rem;
-    text-align: center;
     margin: 0 auto;
 }
 
+.testimony h5,
 .testimony .testimony__author,
 .testimony .testimony__company {
     text-align: center;
@@ -67,3 +67,13 @@
 
 
 
+/* ===============================  Responsive - Tablet  =============================== */
+
+@media (max-width: 768px) {
+    .testimony h5,
+    .testimony .testimony__author,
+    .testimony .testimony__company {
+        text-align: left;
+    }
+
+}
