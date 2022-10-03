@@ -35,4 +35,4 @@ function showSlides(n) {
 setInterval(function() {
   slideIndex++
   showSlides(slideIndex)
-}, 100000)
+}, 10000)

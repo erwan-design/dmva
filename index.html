@@ -39,17 +39,17 @@
 
 <body>
 
-<!-- ===============================  1. Navigation  ===============================
+<!-- ===============================  1. Navigation  =============================== -->
 <header id="header" class="header">
-
   <nav class="nav">
 
     <a href="#" class="nav__logo" title="Accueil">
       <img src="img/logo.png" alt="Logo DMVA Travaux Publics">
     </a>
+
     <div id="navMenu" class="nav__menu">
       <ul>
-        <li><a href="#entreprise" class="nav__link link" title="L'entreprise">L'entreprises</a></li>
+        <li><a href="#entreprise" class="nav__link link" title="L'entreprise">L'entreprise</a></li>
         <li><a href="#metiers" class="nav__link link" title="Nos métiers">Nos métiers</a></li>
         <li><a href="#projets" class="nav__link link" title="Nos réalisations">Nos réalisations</a></li>
         <li><a href="#faq" class="nav__link link" title="Faq">Faq</a></li>
@@ -64,7 +64,7 @@
     </div>
 
   </nav>
-</header> -->
+</header> 
 
 
 <main class="margin__constraint">
@@ -188,8 +188,8 @@
       <img src="img/jobs/job3.webp" class="jobs__img" alt="Métier Aménagement Dmva Travaux Publics">
       <div class="jobs__description">
         <h4><span class="jobs__numbers">3</span>Aménagement <span class="jobs__titleMobile">d'espaces</span></h4>
-        <p>Nous intervenons pour tous les travaux d’aménagement extérieur avec des couches de finitions tels que le gravillonnage, enrobés noirs, enrobés rouges, béton balayé, béton désactivés, dallages, pavages, bordage, soutènement des terres.
-        <br><br>Nous sommes une entreprise qualifiée pour tous les travaux de démolition, et prenons au sérieux l’ensemble des normes et  procédures de sécurité exigées. Régulièrement nous assistons à des formations, pour rester à la pointe des dernières technologies.</p>
+        <p>Spécialiste du terrassement et des travaux publics, nous sommes en mesure d'assurer vos divers travaux d’aménagement extérieur. Nos activités s'etendent du nivellement de terrain, jusqu'à la création d’allées, de voies d’accès, de chemins, etc. Nous vous guidons et accompagnons durant l'ensemble des travaux d’aménagement extérieur, afin de construire un espace qui correspond à vos envies. 
+        <br><br>Nous pouvons également transporter des matériaux comme des cailloux ou de la terre végétale pour l’embellissement de vos espaces extérieurs.</p>
         <a href="#contact" title="Ca m'intéresse" class="buttonSecondary">Ca m'intéresse
           <img src="img/arrow.png" alt="Flèche navigation">
         </a>
@@ -585,9 +585,9 @@
 
     <form action="https://formspree.io/f/xoqyrrzz" method="POST">
       <div class="form__row">
-        <span>Mon nom est</span>
+        <span class="form__label1">Mon nom est</span>
         <input id="name" type="text" name="name" placeholder="votre Nom" required>
-        <span>et je suis un(e)</span>
+        <span class="form__label2">et je suis un(e)</span>
         <select id="person" name="person" required>
           <option value="entreprise">entreprise</option>
           <option value="particulier">particulier</option>
@@ -595,24 +595,24 @@
           <option value="industrie">industrie</option>
           <option value="autre">autre</option>
         </select>
-        <span>qui souhaite vous contacter</span>
+        <span class="form__label3">qui souhaite vous contacter</span>
       </div>
 
       <div class="form__row">
-        <span>pour</span>
+        <span class="form__label4">pour</span>
         <select id="object" name="object" required>
           <option value="infos">des infos</option>
           <option value="devis">un devis</option>
           <option value="retour">une réclamation</option>
           <option value="autre">autre</option>
         </select>
-        <span>. Vous pouvez me joindre via </span>
+        <span class="form__label5">Vous pouvez me joindre via </span>
         <input id="email" type="email" name="email" placeholder="votre Email" required>
-        <span>afin d’échanger plus longuement.</span>
+        <span class="form__label6">afin d’échanger plus longuement.</span>
       </div>
 
       <div class="form__row">
-        <span class="span__textarea">Voici des infos complémentaires</span>
+        <span class="span__textarea form__label7">Voici des infos complémentaires:</span>
         <textarea id="message" name="message" minlength="4" maxlength="300" placeholder="votre Message" required></textarea>
       </div>
 

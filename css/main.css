@@ -183,35 +183,3 @@ img {
 
 
 
-
-/* 
-html {
-   basefont font-size: 1rem;
-}
-
- Se rapproche de 24px 
-
-@media (min-width: 30em) {
-  html {
-    font-size: calc(0.9375rem + 0.20833333333333334vw);
-  }
-}
-
-
-Grossi au dela de 25px jusqu'a 1440px
-@media (min-width: 90em) {
-  html {
-    font-size: 1.125rem;
-  }
-} */
-
-
-
-/*   
-  .banner__title__desc {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 3rem;
-    margin-right: 5rem;
-  } */

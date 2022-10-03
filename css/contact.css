@@ -23,22 +23,34 @@
 
 .contact form span {
     margin-top: 2.25rem;
-
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
     color: var(--darkGrey);
 }
 
+.form__label1,
+.form__label4,
+.form__label7 {
+    margin-right: 1rem;
+}
+.form__label2,
+.form__label5 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.form__label3,
+.form__label6 {
+    margin-left: 1rem;
+}
+
 .contact form input,
 .contact form textarea,
 .contact form select {
-    margin: 0 1rem;
     margin-top: 2.25rem;
     padding-left: 1rem;
     height: 2.6rem; 
     flex-grow: 1;
-
     border: 0.05rem solid var(--grey);
     background: transparent;
     outline: none;
@@ -51,7 +63,6 @@
 .contact form textarea {
     margin-bottom: 3.75rem;
     margin-right: 0;
-
     resize: none;
     height: 5rem;
     padding-top: 1rem;
@@ -97,24 +108,48 @@
 }
 
 
+/* ===============================  Responsive Spéciale  =============================== */
+@media (max-width: 768px) { 
+    .form__label3,
+    .form__label6 {
+        margin-left: 0;
+    }
+}
+@media (max-width: 688px) { 
+    .form__label3 {
+        margin-left: 1rem;
+    }
+}
+@media (max-width: 652px) { 
+    .form__label2,
+    .form__label5 {
+        margin-right: 0;
+    }
+    .form__label6 {
+        margin-left: 1rem;
+    }
+}
+@media (max-width: 480px) { 
+    .form__label6 {
+        margin-left: 0;
+    }
+}
+@media (max-width: 430px) { 
+    .form__label2,
+    .form__label3,
+    .form__label5 {
+        margin-left: 0;
+    }
+    .form__label2 {
+        margin-right: 1rem;
+    }
+}
 
 /* ===============================  Responsive - Mobile  =============================== */
 
 @media (max-width: 480px) { 
-    .contact form input,
-    .contact form select {
-        margin-right: 0;
-    }
-
-    .contact form #email {
-        margin-left: 0;
-    }
-
-    .contact form textarea {
-        margin-left: 0;
-    }
-
     .contact form .form__row__btn {
         text-align: left;
     }
+
 }
