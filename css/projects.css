@@ -132,10 +132,6 @@
 }
 
 
-/* ===============================  Responsive - Desktop  =============================== */
-@media (max-width: 1024px) { 
-}
-
 /* ===============================  Responsive - Tablet  =============================== */
 
 @media (max-width: 768px) { 
@@ -186,6 +182,10 @@
 
     .gallery__item__separator {
         display: inline-block;
+    }
+
+    .projects .gallery__loadMore {
+        display: none;
     }
 
 }
