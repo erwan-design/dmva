@@ -126,10 +126,10 @@
     margin-bottom: 1.25rem;
 }
 
-.projects .gallery__loadMore {
+/* .projects .gallery__loadMore {
     margin-top: 1rem;
     text-align: center;
-}
+} */
 
 
 /* ===============================  Responsive - Tablet  =============================== */
@@ -153,9 +153,9 @@
         margin-bottom: 5rem;
     }
 
-    .projects .gallery__loadMore {
+    /* .projects .gallery__loadMore {
         margin-top: 4rem;
-    }
+    } */
 
 }
 
@@ -184,9 +184,9 @@
         display: inline-block;
     }
 
-    .projects .gallery__loadMore {
+    /* .projects .gallery__loadMore {
         display: none;
-    }
+    } */
 
 }
 
