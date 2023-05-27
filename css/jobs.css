@@ -141,7 +141,7 @@
     }
 
     .jobs .jobs__item:not(:first-child) {
-        margin-top: 6.25rem;
+        margin-top: 5rem;
     }
 
     .jobs__titleMobile {
