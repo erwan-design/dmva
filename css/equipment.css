@@ -1,8 +1,8 @@
 
-/* ===============================  6. Equipment  =============================== */
+/* ===============================  8. Equipment  =============================== */
 
 .equipment {
-    padding-top: 8.75rem;  
+    padding-top: 10rem;  
 }
 
 .equipment__banner {
@@ -16,7 +16,7 @@
 /* ===============================  Carousel equipments  =============================== */
 
 .equipment__carousel {
-    margin-top: 3.75rem;
+    margin-top: 5rem;
 }
 
 .equipment__carousel .equipment__carouselItem {
@@ -25,12 +25,12 @@
 
 .equipment__carouselItem img {
     width: -webkit-fill-available;
-    height: 23.125rem;
+    height: 27.5rem;
 }
 
 .carousel__item__details h6 {
     margin-top: 1.875rem;
-    margin-bottom: .75rem;
+    margin-bottom: .5rem;
 }
 
 

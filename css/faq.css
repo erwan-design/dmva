@@ -5,6 +5,16 @@
     padding-top: 8.75rem;
 }
 
+.faq .faq_icon,
+.faq h3 {
+    text-align: center;
+}
+
+.faq .faq_icon {
+    margin: 0 auto .375rem;
+    max-width: 2rem;
+}
+
 .faq__accordion {
     margin-top: 3.75rem;
     overflow: hidden;
@@ -47,7 +57,7 @@
   max-height: 0;
   padding: 0 1.5rem;
   padding-left: 0;
-  border-bottom: 0.05rem solid var(--darkGrey);
+  border-bottom: 0.05rem solid var(--grey);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625rem;
@@ -77,7 +87,17 @@ input:checked ~ .accordion__answer {
 
 
 
+/* ===============================  Responsive - Tablet  =============================== */
+@media (max-width: 768px) { 
+  .faq .faq_icon,
+  .faq h3 {
+    text-align: left;
+  }
 
+  .faq .faq_icon {
+    margin: 0 0 .375rem;
+  }
+}
 
 
 

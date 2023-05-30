@@ -1,3 +1,6 @@
+
+/* ===============================  Button (common)  =============================== */
+
 .button,
 .buttonSecondary,
 .link {
@@ -15,22 +18,22 @@
   display: inline-block;
   max-width: 1.5rem;
   vertical-align: middle;
-  margin-left: .625rem;
+  margin-left: .375rem;
 }
 
 
-/* ===============================  Button  =============================== */
+/* ===============================  Button (specific)  =============================== */
 .button {
   line-height: 1.125rem;
-  padding: 10px 10px 8px 16px;
+  padding: 12px 16px 10px 18px;
   border-radius: 20rem;
   background: var(--bgColor);
-  border: .05rem solid var(--darkGrey);
+  border: .063rem solid var(--darkGrey);
 }
 
 .button:hover {
   background: var(--darkGrey);
-  color: var(--white);
+  color: #FFF;
 }
 
 .button:hover img {
@@ -38,7 +41,7 @@
 }
 
 
-/* ===============================  Button secondary no border  =============================== */
+/* ===============================  Button secondary (noBorder)  =============================== */
 .buttonSecondary {
   line-height: 1.75rem;
   background: linear-gradient(to top, var(--darkGrey) 0%, var(--darkGrey) 10%, transparent 10.01%) no-repeat;

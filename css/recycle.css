@@ -1,0 +1,58 @@
+
+/* ===============================  6. Recycle  =============================== */
+
+.recycle {
+    margin-top: 8.75rem;
+    background: var(--bgSection);
+    padding: 3.75rem 5.625rem;
+    position: relative; 
+}
+
+.recycle_icon {
+    position: absolute;
+    top: 4%;
+    right:4%;
+    max-width: 3.25rem;
+}
+
+.recycle__details {
+    margin-top: 3.75rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5rem;
+}
+
+.recycle__details img {
+    width: -webkit-fill-available;
+    max-width: 100%;
+}
+
+.recycle .recycle__details__left img {
+    height: 280px;
+}
+
+.recycle .recycle__details__left p {
+    margin-top: 2.5rem;
+}
+
+.recycle .recycle__details__right img {
+    height: 100%;
+}
+
+
+/* ===============================  Responsive - Tablet  =============================== */
+@media (max-width: 768px) { 
+    .recycle {
+        padding: 2.5rem 1.875rem;
+    }
+    
+    .recycle__details {
+        display: block;
+    }
+
+    .recycle_icon,
+    .recycle .recycle__details__right {
+        display: none;
+    }
+}
+

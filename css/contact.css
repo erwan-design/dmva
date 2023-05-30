@@ -3,7 +3,7 @@
 /* ===============================  10. Contact  =============================== */
 
 .contact {
-    padding-top: 8.75rem;
+    padding-top: 10rem;
 }
 
 .contact .contact__description {
@@ -76,7 +76,7 @@
 .contact form select {
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url(../img/angle-down.png) no-repeat;
+    background: url(../img/icons/angle-down.png) no-repeat;
     background-position: calc(100% - 10px);
     background-size: 1.5rem 1.5rem;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@
 
 .contact form #mecontacter {
     background: var(--darkGrey);
-    color: var(--white);
+    color: #FFF;
 }
 .contact form #mecontacter img {
     filter: invert(1);
