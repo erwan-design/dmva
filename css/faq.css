@@ -1,5 +1,5 @@
 
-/* ===============================  7. Faq  =============================== */
+/* ===============================  12. Faq  =============================== */
 
 .faq {
     padding-top: 8.75rem;
@@ -45,9 +45,10 @@
 }
 
 .accordion__title::after {
-  content: "❯";
+  content: url(../img/icons/arrowDown.svg);
   width: 1em;
   height: 1em;
+
   text-align: center;
   margin: auto 0;
   transition: var(--transitions);

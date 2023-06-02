@@ -43,7 +43,7 @@
 /* ===============================  Responsive - Tablet  =============================== */
 @media (max-width: 768px) { 
     .recycle {
-        padding: 2.5rem 1.875rem;
+        padding: 2.5rem 1.25rem;
     }
     
     .recycle__details {

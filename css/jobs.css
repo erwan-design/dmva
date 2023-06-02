@@ -94,6 +94,10 @@
     .jobs h3 {
         text-align: left;
     }
+    
+    .jobs .jobs__1 {
+        margin-top: 3.75rem;
+    }
 
     .jobs__item:nth-child(2n+1) .jobs__description {
         padding-left: initial;
@@ -129,10 +133,6 @@
 
     .jobs__item {
         display: block;
-    }
-
-    .jobs .jobs__item:not(:first-child) {
-        margin-top: 5rem;
     }
 }
 

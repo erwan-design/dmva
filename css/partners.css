@@ -49,6 +49,10 @@
 
 /* ===============================  Responsive - Tablet  =============================== */
 @media (max-width: 768px) { 
+    
+    .partners {
+        margin-top: 8.75rem;
+    }
 
     .partners .parnters__list {
         grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));

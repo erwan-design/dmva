@@ -100,8 +100,9 @@
     .projects h3 {
         text-align: left;
     }
-
+    
     .projects__gallery {
+        margin-top: 3.75rem;
         display: block;
     }
 
@@ -118,7 +119,7 @@
 
 /* ===============================  Responsive - Mobile  =============================== */
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) {    
 
     .gallery__item .gallery__item__details {
         display: block; 

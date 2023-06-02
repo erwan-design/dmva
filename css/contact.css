@@ -76,7 +76,7 @@
 .contact form select {
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url(../img/icons/angle-down.png) no-repeat;
+    background: url(../img/icons/arrowDown.svg) no-repeat;
     background-position: calc(100% - 10px);
     background-size: 1.5rem 1.5rem;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@
 
 .contact form #mecontacter {
     background: var(--darkGrey);
-    color: #FFF;
+    color: var(--bgSite);
 }
 .contact form #mecontacter img {
     filter: invert(1);
@@ -109,7 +109,12 @@
 
 
 /* ===============================  Responsive Spéciale  =============================== */
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+
+    .contact {
+        padding-top: 8.75rem;  
+    }
+
     .form__label3,
     .form__label6 {
         margin-left: 0;

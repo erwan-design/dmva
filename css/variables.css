@@ -2,9 +2,9 @@
 /* ===============================  Variables  =============================== */
 
 :root {
-    --darkGrey: rgba(28, 29, 33, 1);
+    --darkGrey: rgba(45, 46, 56, 1);
     --grey: rgba(106, 108, 116, 1);
     --bgSite: rgba(243, 244, 245, 1);
-    --bgSection: rgba(232, 236, 240, 1);
+    --bgSection: rgba(230, 232, 235, 1);
     --transitions: all .3s ease;    
 }

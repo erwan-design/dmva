@@ -33,7 +33,7 @@
 
 .button:hover {
   background: var(--darkGrey);
-  color: #FFF;
+  color: var(--bgSite);
 }
 
 .button:hover img {

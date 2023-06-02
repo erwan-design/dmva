@@ -93,6 +93,15 @@
 /* ===============================  Responsive - Tablet  =============================== */
 
 @media (max-width: 768px) {
+    
+    .equipment {
+        padding-top: 8.75rem;  
+    }
+
+    .equipment__carousel {
+        margin-top: 3.75rem;
+    }
+
     .equipment__carousel .equipment__carouselItem {
         margin: 0 .125rem;
     } 
