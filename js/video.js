@@ -15,6 +15,6 @@
       setTimeout(function() {
         fallbackImage.style.display = 'block';
         video.style.display = 'none';
-      }, 3000);
+      }, 6000);
     });
   });
