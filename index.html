@@ -36,6 +36,9 @@
   <meta property="og:description" content="Entreprise de travaux publics basée dans l'Oise, spécialisée en construction et aménagement. Experts en voirie, réseaux, assainissement, maçonnerie et bâtiment. Nous offrons des services de qualité, alliant expertise et fiabilité. Contactez-nous dès maintenant et notre équipe se chargera de répondre à vos besoins spécifiques.." />
   <meta property="og:site_name" content="Dmva TP • Entreprise de travaux publics basée dans l'Oise" />
 
+<!-- Include the Vimeo Player API script -->
+  <script src="https://player.vimeo.com/api/player.js"></script>
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -102,12 +105,12 @@
     </div>
   </section>
 
-<!-- ===============================  3. Banner Video autoplay=============================== -->
+<!-- ===============================  3. Banner Video =============================== -->
   <section class="banner__vid useful__width2"> 
-    <video id="myBannerVideo" loop muted plays-inline  class="banner__vid__item">
-      <source src="img/video/video.mp4" type="video/mp4">
-    </video>
-    <img id="myFallbackImage" src="img/banner/banner.webp" alt="Voitures devant des bureaux">
+    <div id="myBannerVideo">
+      <iframe src="https://player.vimeo.com/video/846995308?h=46d7790e1b&autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0&controls=0" frameborder="0" allow="autoplay; muted; fullscreen; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div>
   </section> 
 
 <!-- ===============================  4. Company  =============================== -->
@@ -270,14 +273,14 @@
     
     <div class="recycle__details">
       <div class="recycle__details__left">
-        <img src="img/banner/banner.webp" alt="Ouvrier qui aménage une plateforme industrielle">
+        <img src="img/recycle/recycle1.webp" alt="Plateforme de recyclage de travaux publics">
         <p>Depuis de nombreuses années nous nous efforçons de gérer efficacement les matériaux résiduels de nos chantiers. Ainsi, nous traitons et valorisons les déchets de construction et de démolition tels que le béton, le bois et les métaux. Les matériaux recyclables sont récupérés et transformés en nouvelles ressources, tandis que les déchets non recyclables sont éliminés de manière responsable. 
         <br><br>Cette approche nous permet de minimiser notre impact environnemental, en préservant les ressources naturelles, en réduisant les émissions de gaz à effet de serre et en limitant la quantité de déchets.</p>
 
       </div>
 
       <div class="recycle__details__right">
-        <img src="img/banner/banner.webp" alt="Ouvrier qui aménage une plateforme industrielle">
+        <img src="img/recycle/recycle1.webp" alt="Plateforme de recyclage de travaux publics">
       </div>
 
     </div>
@@ -725,9 +728,6 @@
 
 <!-- ===============================  JS nav  =============================== -->
   <script src="js/nav.js"></script>
-
-<!-- ===============================  JS video  =============================== -->
-<script src="js/video.js"></script>
 
   </body>
 </html>
