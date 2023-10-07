@@ -1,0 +1,36 @@
+/* ===============================  3. Banner Videos  =============================== */
+
+.banner__vid {
+    margin-top: 3.75rem;
+    height: 68vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#myBannerVideo {
+    padding:56.25% 0 0 0;
+    position:relative; 
+}
+
+#myBannerVideo iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+/* ===============================  Responsive - Tablet  =============================== */
+
+@media (max-width: 768px) {  
+    .banner__vid {
+        height: initial;
+    }
+}
+
+
+
+
+

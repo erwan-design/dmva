@@ -1,5 +1,4 @@
 
-
 /* Import VARIABLES from variables.css */
 @import url("variables.css");
 
@@ -16,12 +15,20 @@
 @import url("banner.css");
 
 
+/* Import BANNER VIDEO from bannerVid.css */
+@import url("bannerVid.css");
+
+
 /* Import COMPANY from company.css */
 @import url("company.css");
 
 
 /* Import JOBS from jobs.css */
 @import url("jobs.css");
+
+
+/* Import REECYCLE from recycle.css */
+@import url("recycle.css");
 
 
 /* Import PROJECTS from projects.css */
@@ -40,10 +47,6 @@
 @import url("partners.css");
 
 
-/* Import TESTIMONY from testimony.css */
-@import url("testimony.css");
-
-
 /* Import DIRECTION from direction.css */
 @import url("direction.css");
 
@@ -54,14 +57,6 @@
 
 /* Import FOOTER from footer.css */
 @import url("footer.css");
-
-
-/* Import SIGNIN from signin.css */
-@import url("admin/signin.css");
-
-
-/* Import PLATFORM from platform.css */
-@import url("admin/platform.css");
 
 
 /* Import MENTIONS from mentions.css */
@@ -86,7 +81,7 @@ html {
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: var(--bgColor);
+  background: var(--bgSite);
 }
 
 p {
@@ -112,9 +107,9 @@ h2 {
   font-size: 0.875rem;
   line-height: 1rem;
   color: var(--grey);
-  letter-spacing: 0.06em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 0.375rem;
 }
 
 h3 {

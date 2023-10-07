@@ -1,8 +1,8 @@
 
-/* ===============================  11. Footer  =============================== */
+/* ===============================  13. Footer  =============================== */
 
 footer {
-    margin-top: 12rem;
+    margin-top: 15rem;
 }
 
 footer .footer {
@@ -59,9 +59,14 @@ footer .copyright a:hover {
 
 
 
+
 /* ===============================  Responsive - Tablet  =============================== */
 
 @media (max-width: 768px) { 
+
+    footer {
+        margin-top: 11.25rem;
+    }
 
     footer .footer .footer__sitemap,
     footer .footer .footer__social {

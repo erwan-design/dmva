@@ -1,10 +1,10 @@
+
 /* ===============================  Variables  =============================== */
 
 :root {
-    --darkGrey: rgba(51, 51, 48, 1);
+    --darkGrey: rgba(45, 46, 56, 1);
     --grey: rgba(106, 108, 116, 1);
-    --white: rgba(255, 255, 255, 1);
-    --bgColor: rgba(243, 244, 245, 1);
-    --bgColorNav: rgba(243, 244, 245, 1);
+    --bgSite: rgba(243, 244, 245, 1);
+    --bgSection: rgba(230, 232, 235, 1);
     --transitions: all .3s ease;    
 }

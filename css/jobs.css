@@ -15,10 +15,6 @@
     grid-template-columns: repeat(auto-fit, minmax(363px, 1fr));
 }
 
-.jobs__item .jobs__img {
-    width: -webkit-fill-available; 
-}
-
 .jobs .jobs__item {
     margin-top: 6.25rem;
 }
@@ -26,72 +22,70 @@
     margin-top: 5rem;
 }
 
-.jobs__description .jobs__numbers {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1rem;
-    vertical-align: middle;
-    margin-right: 1.25rem;
-    border: .05rem solid var(--darkGrey);
-    padding: .625rem .9375rem;
-    border-radius: 20rem;
-    color: var(--darkGrey);
-}
 
-.jobs__titleDesktop {
-    margin-left: 3.75rem;
-}
-
-.jobs__description p {
-    margin-top: 1.875rem;
-}
-
-.jobs__description a {
-    margin-top: 2.5rem;
-}
-
-.jobs__item:nth-child(2n) .jobs__description {
-    order: -1;
-    padding-right: 18%;
-}
-
-.jobs__item:nth-child(2n+1) .jobs__description {
-    padding-left: 18%;
+.jobs__item .jobs__img {
+    width: -webkit-fill-available;
+    max-width: 430px; 
 }
 
 .jobs__item:nth-child(2n) .jobs__img {
     justify-self: end;
 }
 
-.jobs__1 .jobs__img {
-    max-width: 470px;
-    height: 450px;
+.jobs__1 .jobs__img {  
+    height: 480px;
     object-position: left;
 }
-.jobs__2 .jobs__img {
-    max-width: 420px;
+.jobs__2 .jobs__img {  
     height: 500px;
     object-position: top;
 }
-.jobs__3 .jobs__img {
-    max-width: 460px;
-    height: 480px;
+.jobs__3 .jobs__img { 
+    height: 520px;
     object-position: top center;
 }
-.jobs__4 .jobs__img {
-    max-width: 490px;
-    height: 340px;
+.jobs__4 .jobs__img {  
+    height: 400px;
     object-position: center;
 }
 
 
-/* ===============================  Responsive - Desktop (title H4)  =============================== */
-
-@media (max-width: 1024px) { 
-    .jobs__titleDesktop {
-        margin-left: initial;
-    }
+.jobs__description .jobs_icon {
+    display: inline-block;
+    max-width: 2rem;
+    vertical-align: text-top;
+    margin-right: .375rem;
 }
+
+.jobs__description .jobs_hastags {
+    margin-top: 1.25rem;
+
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    color: var(--grey);
+}
+
+.jobs__description .jobs_hastags span {
+    padding-right: .5rem;
+}
+
+.jobs__description p,
+.jobs__description a {
+    margin-top: 1.875rem;
+}
+
+
+.jobs__item:nth-child(2n) .jobs__description {
+    order: -1;
+    padding-right: 4%;
+}
+
+.jobs__item:nth-child(2n+1) .jobs__description {
+    padding-left: 4%;
+}
+
+
 
 /* ===============================  Responsive - Tablet  =============================== */
 
@@ -99,6 +93,10 @@
     .jobs h2,
     .jobs h3 {
         text-align: left;
+    }
+    
+    .jobs .jobs__1 {
+        margin-top: 3.75rem;
     }
 
     .jobs__item:nth-child(2n+1) .jobs__description {
@@ -116,16 +114,13 @@
 
     .jobs__item .jobs__img {
         max-width: initial;
-        height: 400px;
+        height: 300px;
     }
 
     .jobs__item .jobs__description h4 {
-        margin-top: 2.5rem;
+        margin-top:  1.875rem;
     }
 
-    .jobs__titleMobile {
-        margin-left: initial;
-    }
 }
 
 
@@ -138,14 +133,6 @@
 
     .jobs__item {
         display: block;
-    }
-
-    .jobs .jobs__item:not(:first-child) {
-        margin-top: 5rem;
-    }
-
-    .jobs__titleMobile {
-        margin-left: 3.75rem;
     }
 }
 
