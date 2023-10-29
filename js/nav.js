@@ -33,38 +33,31 @@ const showMenu = (toggleId, navId) =>{
   
   /*==================== SHADOW MENU ====================*/
   
-  let scrollpos = window.scrollY
-  const header = document.querySelector("header")
-  const header_height = header.offsetHeight
-  
-  const add_class_on_scroll = () => header.classList.add("header__shadow")
-  const remove_class_on_scroll = () => header.classList.remove("header__shadow")
-  
-  window.addEventListener('scroll', function() { 
-    scrollpos = window.scrollY;
-  
-    if (scrollpos >= header_height) { add_class_on_scroll() }
-    else { remove_class_on_scroll() }
-  
-    console.log(scrollpos)
-  })
+  var element = document.querySelector('header');
+
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 1) {
+      element.classList.add('header__shadow');
+    } else {
+      element.classList.remove('header__shadow');
+    }
+  });
   
   
   
   
   /*==================== HIDE MENU ON SCROLL ====================*/
   
-  var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-  
-      var currentScrollpos = window.pageYOffset;
-      if(prevScrollpos > currentScrollpos) {
-          document.getElementById("header").style.top = "0%";
-  
+  let prevScrollPos = window.pageYOffset;
+
+    window.onscroll = function() {
+      let currentScrollPos = window.pageYOffset;
+
+      if (prevScrollPos > currentScrollPos) {
+        document.querySelector("header").style.top = "0";
       } else {
-          document.getElementById("header").style.top = "-30%";
+        document.querySelector("header").style.top = "-200px";
       }
-  
-      prevScrollpos = currentScrollpos;
-  }
-  
+
+      prevScrollPos = currentScrollPos;
+    }
