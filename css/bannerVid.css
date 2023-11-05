@@ -24,7 +24,7 @@
 
 /* ===============================  Responsive - Tablet  =============================== */
 
-@media (max-width: 768px) {  
+@media (max-width: 991px) {  
     .banner__vid {
         height: initial;
     }

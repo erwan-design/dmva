@@ -88,3 +88,11 @@
 }
 
 
+/* ===============================  Responsive - Mobile  =============================== */
+@media (max-width: 480px) { 
+  .button {
+    width: 100%;  
+    text-align: center;
+  }
+
+}
