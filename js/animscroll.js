@@ -16,17 +16,6 @@ sr.reveal('.banner__vid', {
 	reset: true
 });
 
-sr.reveal('.jobs__img', {
-	origin:'bottom',
-	easing: 'ease',
-	delay: 300,
-	reset: true
-});
 
-sr.reveal('.equipment__carousel', {
-	origin:'bottom',
-	easing: 'ease',
-	delay: 300,
-	reset: true
-});
+
 
