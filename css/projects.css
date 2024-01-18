@@ -6,7 +6,7 @@
 }
 
 .projects h2,
-.projects h3 {
+.projects h5 {
     text-align: center;
 }
 
@@ -56,7 +56,7 @@
 
 .gallery__item__infos {
     margin-top: .25rem;
-    margin-bottom: .625rem;
+    margin-bottom: .75rem;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
