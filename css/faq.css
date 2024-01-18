@@ -6,12 +6,12 @@
 }
 
 .faq .faq_icon,
-.faq h3 {
+.faq h2 {
     text-align: center;
 }
 
 .faq .faq_icon {
-    margin: 0 auto .375rem;
+    margin: 0 auto .625rem;
     max-width: 2rem;
 }
 
