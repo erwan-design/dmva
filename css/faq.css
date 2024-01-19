@@ -91,7 +91,7 @@ input:checked ~ .accordion__answer {
 /* ===============================  Responsive - Tablet  =============================== */
 @media (max-width: 768px) { 
   .faq .faq_icon,
-  .faq h3 {
+  .faq h2 {
     text-align: left;
   }
 

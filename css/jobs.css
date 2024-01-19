@@ -91,7 +91,7 @@
 
 @media (max-width: 768px) { 
     .jobs h2,
-    .jobs h3 {
+    .jobs h5 {
         text-align: left;
     }
     
@@ -117,7 +117,7 @@
         height: 400px;
     }
 
-    .jobs__item .jobs__description h4 {
+    .jobs__item .jobs__description h3 {
         margin-top:  1.875rem;
     }
 
