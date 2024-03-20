@@ -18,13 +18,15 @@
 
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
     grid-gap: 5rem;
 
-    grid-template-areas: 
+    grid-template-areas:
+    "project8 project7"
+    "project6 project6" 
     "project5 project1"
     "project2 project2"
     "project3 project4";
-    grid-template-rows: auto;
 }
 
 .gallery__item:nth-child(0n+1) {
@@ -41,6 +43,15 @@
 }
 .gallery__item:nth-child(5) {
     grid-area: project5;
+}
+.gallery__item:nth-child(6) {
+    grid-area: project6;
+}
+.gallery__item:nth-child(7) {
+    grid-area: project7;
+}
+.gallery__item:nth-child(8) {
+    grid-area: project8;
 }
 
 
@@ -77,11 +88,19 @@
     
     .projects__gallery {
         margin-top: 3.75rem;
-        display: block;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-areas:
+    "project8 project8"
+    "project7 project7" 
+    "project6 project6"
+    "project5 project5"
+    "project1 project1";
     }
 
-    .gallery__item:not(:last-child) {
-        margin-bottom: 5rem;
+    .project__4,
+    .project__3,
+    .project__2 {
+        display: none;
     }
 
 }
