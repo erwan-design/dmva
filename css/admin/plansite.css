@@ -1,0 +1,33 @@
+/* ===============================  Plan du site  =============================== */
+
+.plansite .nav__menu {
+    justify-content: flex-end;
+}
+
+.plansite .plansite__content {
+    margin-top: 10.75rem;
+    margin-bottom: 12rem;
+}
+
+.plansite__content h1 {
+    margin-bottom: 3.75rem;
+}
+
+.plansite__content h2 {
+    margin: 1.25rem 0;
+}
+
+.plansite__content .plansite__title {
+    font-size: 2rem;
+}
+
+.plansite__item {
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
+    color: var(--grey);
+}
+
+
+
+
