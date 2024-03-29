@@ -3,7 +3,7 @@
 
 :root {
     --darkGrey: rgba(45, 46, 56, 1);
-    --grey: rgba(106, 108, 116, 1);
+    --grey: rgba(76, 78, 84, 1);
     --bgSite: rgba(243, 244, 245, 1);
     --bgSection: rgba(230, 232, 235, 1);
     --transitions: all .3s ease;    

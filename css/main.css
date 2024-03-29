@@ -62,6 +62,9 @@
 /* Import MENTIONS from mentions.css */
 @import url("admin/mentions.css");
 
+/* Import PLAN from plansite.css */
+@import url("admin/plansite.css");
+
 
 /* ===============================  Global  =============================== */
 
