@@ -2,8 +2,7 @@
 /* ===============================  4. Company  =============================== */
 
 .company {
-    padding-top: 6.25rem;
-    
+    padding-top: 7.5rem;
     display: grid;
     grid-template-columns: 1fr 30%;
 }
@@ -19,7 +18,6 @@
 
 .company__numbers {
     justify-self: end;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
