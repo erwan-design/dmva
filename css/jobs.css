@@ -2,7 +2,7 @@
 /* ===============================  4. Jobs  =============================== */
 
 .jobs {
-    padding-top: 8.75rem;
+    padding-top: 10rem;
 }
 
 .jobs h2,
@@ -16,10 +16,10 @@
 }
 
 .jobs .jobs__item {
-    margin-top: 6.25rem;
+    margin-top: 8.75rem;
 }
 .jobs .jobs__1 {
-    margin-top: 5rem;
+    margin-top: 6.25rem;
 }
 
 

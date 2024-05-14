@@ -2,7 +2,7 @@
 /* ===============================  6. Recycle  =============================== */
 
 .recycle {
-    margin-top: 8.75rem;
+    margin-top: 10rem;
     background: var(--bgSection);
     padding: 3.75rem 5.625rem;
     position: relative; 
@@ -22,12 +22,16 @@
     grid-gap: 5rem;
 }
 
-.recycle__details img {
+.recycle__details .buttonSecondary {
+    margin-top: 1.875rem;
+}
+
+.recycle__img {
     width: -webkit-fill-available;
     max-width: 100%;
 }
 
-.recycle .recycle__details__left img {
+.recycle .recycle__details__left .recycle__img {
     height: 280px;
 }
 
@@ -35,7 +39,7 @@
     margin-top: 2.5rem;
 }
 
-.recycle .recycle__details__right img {
+.recycle .recycle__details__right .recycle__img {
     height: 100%;
 }
 

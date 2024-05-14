@@ -2,7 +2,7 @@
 /* ===============================  5. Projects  =============================== */
 
 .projects {
-    padding-top: 8.75rem;
+    padding-top: 10rem;
 }
 
 .projects h2,
@@ -14,7 +14,7 @@
 /* ===============================  Gallery projects  =============================== */
 
 .projects__gallery {
-    margin-top: 5rem;
+    margin-top: 6.25rem;
 
     display: grid;
     grid-template-columns: repeat(2,1fr);
